@@ -36,7 +36,8 @@ export default class ProjectList extends Component {
         this.projectRefs = []
     }
     dateForInput = (dateString) => {
-        return dayjs(dateString).format("YYYY-MM-DD");
+        // return dayjs(dateString).format("YYYY-MM-DD");
+        return dayjs(dateString).format('dddd D MMM YYYY');
     }
     toggle = (index) => {
         const { expandedIndex } = this.state

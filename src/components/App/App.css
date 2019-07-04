@@ -3,7 +3,14 @@
   margin: 0;
 }
 
-html::before {
+html {
+  background-image: url("/Portland-background.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* html::before {
   content: "";
   position: absolute;
   top: 0;
@@ -12,18 +19,18 @@ html::before {
   height: 100%;
   opacity: 0.4;
   z-index: -1;
-  background-image: url("/Portland-background.jpeg");
-  background-size: cover;
-}
+} */
 
 .App {
   height: 100vh;
   max-width: 1200px;
   margin: 0 auto;
 }
+
 .appInfo {
   justify-items: left;
 }
+
 .appInfo h3 {
   display: inline-block;
 }

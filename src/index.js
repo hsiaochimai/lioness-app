@@ -8,8 +8,12 @@ import './index.css';
 import App from '../src/components/App/App';
 import * as serviceWorker from './serviceWorker';
 
+import dayjs from 'dayjs'
+import advancedFormat from 'dayjs/plugin/advancedFormat' // load on demand
+
 import { history } from './history'
 
+dayjs.extend(advancedFormat) // use plugin
 
 
 ReactDOM.render(
