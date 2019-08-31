@@ -29,6 +29,9 @@ This application's functionality includes:
 ## Application Website
 https://lioness-app.jchmai21.now.sh/login
 
+## Backend Github
+https://github.com/hsiaochimai/lioness-server
+
 ### LandingPage 
 ![Alt text](Readme.Screenshots/Lioness-LandingPage.png?raw=true "Lioness-LandingPage")
 
