@@ -78,7 +78,7 @@ export default class User extends Component {
                                 {!this.state.newUser ? <>
                                     {true || this.props.role !== 2 ?
 
-                                        <p><em>Active Projects:{user.projects ? user.projects.filter(project => project.status_id === 2).length : "0"}</em></p> : ''}
+                                        <em>Active Projects:{user.projects ? user.projects.filter(project => project.status_id === 2).length : "0"}</em> : ''}
                                 </> : ''}
                             </span> : ''}
                         </div>

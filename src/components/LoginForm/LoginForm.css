@@ -60,6 +60,8 @@ h2 {
   background-color: #6CAE75;
   margin: auto;
   font-size: 18px;
+  border-radius: 30px;
+  border:none;
 }
 
 .LoginForm button:hover {
