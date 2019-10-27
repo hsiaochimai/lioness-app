@@ -58,7 +58,7 @@ export default class UserSearchBar extends Component {
 
   fetchData = () => {
    
-    // debugger
+
     const promises = []
 
     const opts = {
@@ -165,7 +165,7 @@ export default class UserSearchBar extends Component {
                 <Icon icon="arrow-left" /> Previous
           </button>
               <span className="paginationInfo">
-                {this.context.users && `page ${this.state.currentPageNumber} of ${this.context.users.numPages}`}
+                {this.context.users && `Page ${this.state.currentPageNumber} of ${this.context.users.numPages}`}
               </span>
               <button className="btnNext" onClick={e => this.changePage('next')}>
                 Next <Icon icon="arrow-right" />
